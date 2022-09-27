@@ -3,5 +3,10 @@
   "directory": "/home/mateusz/Desktop/cpp/MyOwnDataStructures/build",
   "command": "/usr/bin/g++    -g   -o CMakeFiles/MyOwnDataStructures.dir/main.cpp.o -c /home/mateusz/Desktop/cpp/MyOwnDataStructures/main.cpp",
   "file": "/home/mateusz/Desktop/cpp/MyOwnDataStructures/main.cpp"
+},
+{
+  "directory": "/home/mateusz/Desktop/cpp/MyOwnDataStructures/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/MyOwnDataStructures.dir/LinkedList.cpp.o -c /home/mateusz/Desktop/cpp/MyOwnDataStructures/LinkedList.cpp",
+  "file": "/home/mateusz/Desktop/cpp/MyOwnDataStructures/LinkedList.cpp"
 }
 ]

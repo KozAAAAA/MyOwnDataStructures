@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mateusz/Desktop/cpp/MyOwnDataStructures/LinkedList.cpp" "/home/mateusz/Desktop/cpp/MyOwnDataStructures/build/CMakeFiles/MyOwnDataStructures.dir/LinkedList.cpp.o"
   "/home/mateusz/Desktop/cpp/MyOwnDataStructures/main.cpp" "/home/mateusz/Desktop/cpp/MyOwnDataStructures/build/CMakeFiles/MyOwnDataStructures.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

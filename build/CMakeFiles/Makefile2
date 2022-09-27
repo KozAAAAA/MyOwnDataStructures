@@ -507,12 +507,12 @@ CMakeFiles/Continuous.dir/clean:
 CMakeFiles/MyOwnDataStructures.dir/all:
 	$(MAKE) -f CMakeFiles/MyOwnDataStructures.dir/build.make CMakeFiles/MyOwnDataStructures.dir/depend
 	$(MAKE) -f CMakeFiles/MyOwnDataStructures.dir/build.make CMakeFiles/MyOwnDataStructures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mateusz/Desktop/cpp/MyOwnDataStructures/build/CMakeFiles --progress-num=1,2 "Built target MyOwnDataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mateusz/Desktop/cpp/MyOwnDataStructures/build/CMakeFiles --progress-num=1,2,3 "Built target MyOwnDataStructures"
 .PHONY : CMakeFiles/MyOwnDataStructures.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyOwnDataStructures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateusz/Desktop/cpp/MyOwnDataStructures/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateusz/Desktop/cpp/MyOwnDataStructures/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MyOwnDataStructures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateusz/Desktop/cpp/MyOwnDataStructures/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyOwnDataStructures.dir/rule
