@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mateusz/Desktop/cpp/MyOwnDataStructures/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/MyOwnDataStructures.dir/main.cpp.o -c /home/mateusz/Desktop/cpp/MyOwnDataStructures/main.cpp",
+  "file": "/home/mateusz/Desktop/cpp/MyOwnDataStructures/main.cpp"
+}
+]
