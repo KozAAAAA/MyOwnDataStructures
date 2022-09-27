@@ -1,4 +1,6 @@
 #include "LinkedList.h"
+#include <stdexcept>
+		
 
 struct LinkedList::Node
 {
@@ -30,15 +32,15 @@ void LinkedList::append(uint8_t newValue)
     }
 }
 
-uint8_t LinkedList::get(uint32_t position)
+uint8_t& LinkedList::operator[](int index)
 {
     Node *n = head;
     int i = 0;
-    while (i != position)
+    while (i != index)
     {
         n = n->next;
         if (n->next == nullptr)
-            return 0;
+            throw std::invalid_argument("Linked list index out of bounds");
         i++;
     }
     return n->data;
