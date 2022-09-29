@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/mateusz/Desktop/cpp/MyOwnDataStructures/LinkedList.cpp
+LinkedList.h
+/home/mateusz/Desktop/cpp/MyOwnDataStructures/LinkedList.h
+stdexcept
+-
+
 /home/mateusz/Desktop/cpp/MyOwnDataStructures/LinkedList.h
 stdint.h
 -
-
-/home/mateusz/Desktop/cpp/MyOwnDataStructures/main.cpp
-iostream
--
-LinkedList.h
-/home/mateusz/Desktop/cpp/MyOwnDataStructures/LinkedList.h
 
