@@ -8,17 +8,12 @@ struct LinkedList::Node
     Node *next;
 };
 
-LinkedList::Node *LinkedList::createNode(uint8_t newValue)
+
+void LinkedList::append(uint8_t newValue)
 {
     Node *newNode = new Node;
     newNode->data = newValue;
     newNode->next = nullptr;
-    return newNode;
-}
-
-void LinkedList::append(uint8_t newValue)
-{
-    Node *newNode = createNode(newValue);
 
     if (head == nullptr)
     {
@@ -30,6 +25,15 @@ void LinkedList::append(uint8_t newValue)
         tail->next = newNode;
         tail = newNode;
     }
+}
+
+void LinkedList::prepend(uint8_t newValue)
+{
+    Node *next = head;
+    Node *newNode = new Node;
+    newNode->data = newValue;
+    newNode->next = next;
+    head = newNode;
 }
 
 uint8_t& LinkedList::operator[](int index)
